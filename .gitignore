@@ -176,3 +176,4 @@ __marimo__/
 credentials.json
 service-account.json
 data/backups/*.json
+*.gpg
