@@ -15,7 +15,7 @@ import time
 
 start_time = time.time()
 # 1. Definir la ruta raíz del proyecto (3 niveles arriba del script)
-proyecto_raiz = os.path.abspath(os.path.join(os.path.dirname(__file__), '..','..'))
+proyecto_raiz = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 # 2. Cargar archivo .env desde la raíz del proyecto
 dotenv_path = os.path.join(proyecto_raiz, '.env')
 load_dotenv(dotenv_path)
